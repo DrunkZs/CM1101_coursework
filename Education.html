@@ -4,38 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Education </title>
+    <!-- These are my Frameworks, font is awesome and bulma which is a modified version of bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bulma.css">
+    <!-- This is my own made css for edited bulma and my own stylesheet -->
     <link rel="stylesheet" href="master.css">
   </head>
   <body>
+    <!-- This is a parallax header made using css, it shows my name and matches the colour scheme-->
+        <header class="parallax"></header>
 
-    <header class="parallax"></header>
-
-    <section class="navbar">
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="index.html">
-            <i class="fa fa-home" aria-hidden="true"></i>
-          </a>
-          <a class="navbar-item" href="Work.html" >
-            Work
-          </a>
-          <a class="navbar-item" href="Skill.html">
-            Skills
-          </a>
-          <a class="navbar-item" href="Education.html">
-            Education
-          </a>
-          <a class="navbar-item" href="Projects.html">
-            Projects
-          </a>
-        </div>
-      </nav>
-    </section>
+    <!-- Nav bar using the navbar classes in bulma  -->
+      <main class="navbar">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <!-- Font is awesome home icon -->
+              <i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+            <a class="navbar-item" href="Work.html">
+              Work
+            </a>
+            <a class="navbar-item" href="Skill.html">
+              Skills
+            </a>
+            <a class="navbar-item" href="Education.html">
+              Education
+            </a>
+            <a class="navbar-item" href="Projects.html">
+              Projects
+            </a>
+          </div>
+        </nav>
+      </main>
 
     <article class="columns is-multiline">
       <div class="column is-one-half is-offset-5">
+        <!-- Centerising the header -->
       <h1 class="title">Education</h1>
       </div>
     </article>
@@ -43,14 +48,16 @@
     <article class="columns is-multiline">
       <div class="column is-one-fifth">
         <h1 class ="title">Aberdeen Grammar School</h1>
+        <!-- unordered list of what i got in exams in secondary school -->
         <ul class="list">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Maths Higher B</li>
+          <li>Computing Higher B</li>
+          <li>Physics Higher B</li>
+          <li>Drama Higher C</li>
         </ul>
       </div>
       <div class="column is-four-fifths">
+        <!-- Image of the school -->
         <img src="grammar.jpg" alt="aberdeen grammar school">
       </div>
   </article>
@@ -58,16 +65,17 @@
     <div class="column is-one-fifth">
       <h1 class="title">Robert Gordons University</h1>
       <ul class="list">
-        <li></li>
-        <li></li>
+        <li>Studying Cyber Secuirty</li>
       </ul>
     </div>
     <div class="column is-four-fifths">
+      <!-- Image of the uni -->
       <img src="RGU1.jpg" alt="Sir ian wood building">
     </div>
   </article>
   <footer class ="footer">
     <div class="columns">
+      <!-- social media buttons designed in css -->
       <div class="column is-one-fifth">
         <button class="fa fa-twitter" id="twitter"  onclick="window.open('https://www.twitter.com','_blank')"> </button>
         <button class="fa fa-github" id="github" onclick="window.open('https://www.github.com','_blank')"> </button>
@@ -75,10 +83,12 @@
         <button class="fa fa-instagram" id="instagram" onclick="window.open('https://www.instagram.com','_blank')"> </button>
       </div>
     <div class="column">
+      <!-- Button too contact me -->
       <p class="subtitle"> Contact me </p>
       <button class="fa fa-comment" id="comment" onclick="window.open('contact.html')"></button>
     </div>
     <div class="column is-two-fifths">
+      <!-- Sitemap too help poeple get too websites when they struggle to use the navbar -->
       <h3 class="subtitle">Sitemap</h3>
       <div class="sitemap">
         <a href="index.html">Home</a>
@@ -97,6 +107,7 @@
     <div class="column is-one-fifth">
       <p> Framework by <a href="https://bulma.io/">Bulma</a>
     </div>
+  </div>
   </footer>
 </body>
-</head>
+</html>

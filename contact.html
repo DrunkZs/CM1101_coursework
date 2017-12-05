@@ -15,10 +15,12 @@
 <!-- This is a parallax header made using css, it shows my name and matches the colour scheme-->
     <header class="parallax"></header>
 
-  <section class="navbar">
+<!-- Nav bar using the navbar classes in bulma  -->
+  <main class="navbar">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="index.html">
+          <!-- Font is awesome home icon -->
           <i class="fa fa-home" aria-hidden="true"></i>
         </a>
         <a class="navbar-item" href="Work.html">
@@ -35,14 +37,16 @@
         </a>
       </div>
     </nav>
-  </section>
+  </main>
 
   <article>
     <div class="columns is-multiline">
+      <!-- Centerising the title of head of the page -->
       <div class="column is-one-half is-offset-5">
         <h1 class="title">Contact me</h1>
       </div>
     </div>
+    <!-- Creating a form, For user input too contact me -->
     <div class="field">
       <label class="label">Name</label>
       <div class="control">
@@ -52,11 +56,12 @@
 
     <div class="field">
       <label class="label">Email</label>
-      <div class="control has-icons-left has-icons-right">
+      <div class="control has-icons-left has-icons-right"></div>
         <input class="input" type="email" placeholder="Email" value="">
         <span class="icon is-small is-left">
           <i class="fa fa-envelope"></i>
         </span>
+    </div>
 
     <div class="field">
       <label class="label">Type of message</label>
@@ -86,10 +91,11 @@
         <button class="button is-link">Cancel</button>
       </div>
     </div>
-    </form>
   </article>
+
   <footer class ="footer">
     <div class="columns">
+      <!-- social media buttons designed in css -->
       <div class="column is-one-fifth">
         <button class="fa fa-twitter" id="twitter"  onclick="window.open('https://www.twitter.com','_blank')"> </button>
         <button class="fa fa-github" id="github" onclick="window.open('https://www.github.com','_blank')"> </button>
@@ -97,10 +103,12 @@
         <button class="fa fa-instagram" id="instagram" onclick="window.open('https://www.instagram.com','_blank')"> </button>
       </div>
     <div class="column">
+      <!-- Button too contact me -->
       <p class="subtitle"> Contact me </p>
       <button class="fa fa-comment" id="comment" onclick="window.open('contact.html')"></button>
     </div>
     <div class="column is-two-fifths">
+      <!-- Sitemap too help poeple get too websites when they struggle to use the navbar -->
       <h3 class="subtitle">Sitemap</h3>
       <div class="sitemap">
         <a href="index.html">Home</a>
@@ -119,6 +127,7 @@
     <div class="column is-one-fifth">
       <p> Framework by <a href="https://bulma.io/">Bulma</a>
     </div>
+  </div>
   </footer>
 </body>
 </html>
