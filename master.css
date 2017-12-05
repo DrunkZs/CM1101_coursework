@@ -1,0 +1,249 @@
+body, html {
+  background-color: #343D39;
+  color: #6D6466;
+  height: 100%
+}
+
+.navbar {
+  background-color: #36311F;
+}
+
+a.navbar-item:hover {
+  background-color: #59544B;
+}
+
+article {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.video {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-item {
+  color: #6D6466;
+
+}
+.title {
+  font-size: 40px;
+  color: #6D6466;
+}
+
+.subtitle {
+  color: #6D6466;
+}
+.label{
+  color: #6D6466;
+}
+.list {
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #343D39;
+}
+
+@media screen and (min-width: 1080px) {
+  .parallax {
+    background-image: url("banner2.jpeg");
+    height: 48%;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 719px){
+  .parallax{
+    background-image: url("banner2.jpeg");
+    background-attachment: fixed;
+    height: 12%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1079px){
+  .parallax{
+    background-image: url("banner2.jpeg");
+    background-attachment: fixed;
+    height: 18%;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.iconhome{
+  padding-top: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul {
+  padding-left:20px;
+  list-style:none;
+ }
+
+li:before {
+  font-family: 'FontAwesome';
+  content: '\f192';
+  margin:0 5px 0 -15px;
+  color: #6D6466;
+}
+
+.button.is-link {
+  color: #6D6466;
+  background-color: #36311F;
+}
+
+.button.is-link:hover{
+  color: black;
+  background-color: #59544B;
+}
+
+a{
+  color: #6D6444;
+}
+#twitter {
+  font-size: 30px;
+  border: none;
+  color: #6D6444;
+  background: none;
+  cursor: pointer;
+  padding-top,
+  padding-bottom: 14px;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid #6D6444;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+#twitter:hover,
+#twitter.active {
+  background: #36B9FF;
+  color: #f2f2f2;
+}
+
+#linkedin {
+  font-size: 30px;
+  border: none;
+  color: #6D6444;
+  background: none;
+  cursor: pointer;
+  padding-top,
+  padding-bottom: 14px;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid #6D6444;
+  float: left;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+#linkedin:hover,
+#linkedin.active {
+  background: #015987;
+  color: #f2f2f2;
+}
+
+#github {
+  font-size: 30px;
+  border: none;
+  color: #6D6444;
+  background: none;
+  cursor: pointer;
+  padding-top,
+  padding-bottom: 14px;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid #6D6444;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+#github:hover,
+#github.active {
+  background: #f2f2f2;
+  color: #a142f4;
+}
+
+#instagram {
+  font-size: 30px;
+  border: none;
+  color: #6D6444;
+  background: none;
+  cursor: pointer;
+  padding-top,
+  padding-bottom: 14px;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid #6D6444;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+#instagram:hover,
+#instagram.active {
+  background:  linear-gradient( #400080, transparent),  linear-gradient(200deg, #d047d1, #ff0000, #ffff00);
+  color: #f2f2f2;
+}
+
+#comment {
+  font-size: 30px;
+  border: none;
+  color: #6D6444;
+  background: none;
+  cursor: pointer;
+  padding-top,
+  padding-bottom: 14px;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid #6D6444;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+}
+
+#comment:hover,
+#comment.active {
+  color: #6D6444;
+  background: #36311F;
+}
+
+code {
+  font-size: 90%;
+}
+
+pre code{
+  background-color: #eee;
+  border: 1px solid #343D39;
+  display: block;
+  padding: 5px;
+}
